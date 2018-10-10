@@ -1,0 +1,8 @@
+version: '2.1'
+
+services:
+  vsc_c++_docker_tutorial:
+    image: vsc_c++_docker_tutorial
+    build: .
+    ports:
+      - 8200:8200
